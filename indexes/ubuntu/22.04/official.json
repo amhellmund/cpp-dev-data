@@ -1,35 +1,29 @@
 {
     "repository": "official",
-    "packages": [
-        {
-            "name": "boost",
+    "packages": {
+        "boost": {
             "versions": {
                 "1.83.0": {
                     "dependencies": [],
                     "path": "official-boost-1.83.0.zip"
                 }
-            },
-            "latest": "1.83.0"
+            }
         },
-        {
-            "name": "llvm",
+        "llvm": {
             "versions": {
                 "18.1.6": {
                     "dependencies": [],
                     "path": "official-llvm-18.1.6.zip"
                 }
-            },
-            "latest": "18.1.6"
+            }
         },
-        {
-            "name": "googletest",
+        "googletest": {
             "versions": {
                 "1.11.0": {
                     "dependencies": [],
                     "path": "official-googletest-1.11.0.zip"
                 }
-            },
-            "latest": "1.11.0"
+            }
         }
-    ]
+    }
 }
